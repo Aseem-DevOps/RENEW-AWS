@@ -1,0 +1,5 @@
+variable "role_name" { type = string } # e.g. "ml-api-role"
+variable "assume_role_policy" { type = string } # e.g. "{...json...}"
+variable "profile_name" { type = string } # e.g. "ml-api-profile"
+variable "policy_name" { type = string } # e.g. "ml-api-policy"
+variable "policy" { type = string } # e.g. "{...json...}"
